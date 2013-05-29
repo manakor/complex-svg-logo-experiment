@@ -1,0 +1,107 @@
+body {
+    background: grey;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 7px;
+    font-size: 19px;
+    text-align: center;
+    color: #fff;
+    border-bottom: dotted 1px lightgrey;
+}
+
+.lyt {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+}
+
+.colorpicker {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 300px;
+    height: 90%;
+    margin: 0 0 0 -150px;
+    background: rgba(0, 0, 0, .8);
+}
+    .colorpicker h2 {
+        position: relative;
+        margin: 8px 0 10px;
+        padding: 0 20px;
+        font-size: 19px;
+        text-align: left;
+        color: #fff;
+    }
+    
+        .colorpicker h2 i {
+            display: block;
+            position: absolute;
+            top: -2px;
+            right: 6px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            padding: 5px 10px 7px;
+            background: grey;
+        }
+        .colorpicker div span {
+            display: block;
+            float: left;
+            width: 25%;
+            height: 60px;
+            cursor: pointer;
+        }
+        
+.selected {
+    font-size: 15px;
+    text-align: center;
+}
+    .selected p {
+        margin: 0;
+    }
+    .selected cite {
+        font-size: 13px;
+    }
+    .selected div {
+        margin: 10px 0 20px;
+    }
+        .selected div span {
+            display: block;
+            float: left;
+            width: 14%;
+            height: 30px;
+            cursor: pointer;
+        }
+        
+.credentials {
+    text-align: center;
+}
+    .credentials .author {
+        display: block;
+        padding: 5px 0;
+        font-size: 12px;
+    }
+        .credentials .author a {
+            text-decoration: none;
+            color: #17365D;
+        }
+    .credentials .marius, .credentials .marius a {
+        color: #333;
+    }
+        .credentials .marius a {
+            text-decoration: underline;
+        }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+.hidden { display: none; }

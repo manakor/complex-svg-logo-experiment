@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Complex SVG logo rendering experiment</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<h1>Complex SVG rendering experiment</h1>
+<div id="logo" class="logo lyt"></div>
+
+<div id="selected" class="selected lyt">
+    <p>Play with the colors</p>
+    <cite>Click on one color to change it</cite>
+    <div class="clearfix"></div>
+</div>
+
+<div class="credentials lyt">
+    <cite class="author">
+        <a href="https://github.com/manakor/complex-svg-logo-experiment" title="Complex SVG logo rendering experiment">Complex SVG logo rendering experiment</a>
+        <br>
+        Nik Sumeiko, <a href="http://manakor.org" title="Nik Sumeiko">http://manakor.org</a>
+    </cite>
+    <cite class="author marius">
+        Logo belongs to <a href="http://mariusbauer.com" title="Marius Bauer" target="_blank">Marius Bauer</a> &#169; 2013
+    </cite>
+</div>
+
+<div id="colorpicker" class="colorpicker clearfix hidden">
+    <h2>Pick the color <i>close</i></h2>
+    <div></div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+
+<script src="js/raphael.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
