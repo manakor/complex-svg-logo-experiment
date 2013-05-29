@@ -6,4 +6,8 @@ technology with a combination of [RaphaelJS](http://raphaeljs.com/ "Raphaël—J
   
 **Try the demo**, it renders very well in both web/mobile browsers: [http://manakor.org/experiments/complex-svg-logo-experiment/](http://manakor.org/experiments/complex-svg-logo-experiment/ "Complex SVG logo rendering experiment")  
 
-> > *Manakor Labs Experiments*
+> > *Manakor Labs Experiments*  
+  
+
+- - -
+Logo used in the experiment is the ownership of [Marius Bauer](http://mariusbauer.com "Marius Bauer") &copy; 2013
